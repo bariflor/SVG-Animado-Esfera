@@ -23,16 +23,15 @@ svg{
 	width: 40%;
 }
 .star{
-	animation: pulse .5s 1.5s;
     transform-origin: 50% 50%; /*obligatorio ponerlo para que se centre*/
 	stroke: white;
 	stroke-width: 4;
 	stroke-dasharray: 810; /*se puede obtener el valor con JS*/
 	stroke-dashoffset: 810;
-	animation: offset 5s linear forwards, fill-it .8s 2s forwards;
-	transition: transform .3s ease-out;
-	
-}
+	animation: pulse .5s 1.5s;
+/*	animation: offset 5s linear forwards, fill-it .8s 2s forwards;
+*//*	transition: transform .3s ease-out;
+*/}
 .star:nth-of-type(2){
 	animation-delay: 1.6s;
 }
